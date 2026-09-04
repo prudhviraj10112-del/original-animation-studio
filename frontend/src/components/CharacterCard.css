@@ -1,0 +1,72 @@
+.character-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.character-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.character-header h3 {
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.role {
+  font-size: 0.875rem;
+  color: var(--primary-light);
+  margin: 0.25rem 0 0 0;
+}
+
+.lock-badge {
+  background: linear-gradient(135deg, var(--accent) 0%, #ff006e 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.character-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.character-info p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.color-palette {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.color-swatch:hover {
+  transform: scale(1.1);
+  border-color: var(--primary);
+}
+
+.character-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.character-actions button {
+  flex: 1;
+  font-size: 0.75rem;
+}
